@@ -1,0 +1,128 @@
+body {
+    font-family: 'Lora', serif;
+    background-color: #333;
+    color: #ddd; /* Slightly lighter base text color for better readability */
+    margin: 0;
+    padding: 0;
+    background-image: url("../asset/img/dark-wood-texture.jpg"); /* Adjust path if needed */
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.6); /* Slightly darker container for better contrast */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* Stronger shadow for a more defined look */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #ffc107; /* Brighter golden color for the heading */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Stronger shadow for the heading */
+    margin-bottom: 20px;
+}
+
+.back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0.8); /* Darker back button for better visibility */
+    color: #eee;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Slightly stronger border for the back button */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #ffc107; /* Brighter hover color for the back button */
+}
+
+/* Form Styling */
+form {
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent form background for better separation */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #fff; /* White label text for better contrast */
+    font-size: 1.1em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add shadow to labels for better definition */
+}
+
+input[type="text"],
+input[type="number"],
+input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Slightly stronger border */
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7); /* Darker input background */
+    color: #ddd; /* White input text */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add shadow to input text */
+}
+
+/* Placeholder Text Styling */
+input[type="text"]::placeholder,
+input[type="number"]::placeholder,
+input[type="datetime-local"]::placeholder {
+    color: #aaa; /* Lighter placeholder text */
+}
+
+button[type="submit"] {
+    background-color: #ffc107; /* Brighter golden color */
+    color: #212529; /* Darker button text */
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #e0a800; /* Darker golden hover color */
+    color: #fff; /* White hover text */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Slightly stronger border */
+    color: #ddd; /* Lighter table text */
+}
+
+th {
+    background-color: rgba(0, 0, 0, 0.8); /* Darker table header */
+    color: #ffc107; /* Brighter golden header text */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.6); /* Darker odd row background */
+}
+
+tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+tbody a {
+    color: #ffc107; /* Brighter golden link color */
+    text-decoration: none;
+}
